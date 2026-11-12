@@ -1,0 +1,10 @@
+[
+  {
+    "slug": "hello-world",
+    "title": "Hello, world",
+    "subtitle": "A sample post",
+    "date": "2026-01-01",
+    "canonical": "https://example.substack.com/p/hello-world",
+    "cover": null
+  }
+]

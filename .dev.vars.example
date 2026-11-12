@@ -1,0 +1,17 @@
+# Local secrets for `next dev` (via OpenNext's getCloudflareContext).
+# Copy this file to `.dev.vars` (gitignored) and fill in real values.
+# In production, set these as Worker secrets: `npx wrangler secret put NAME`.
+
+# Resend API key — for the contact form to actually send email.
+# If unset, submissions are logged server-side and the form still "succeeds".
+RESEND_API_KEY=
+
+# Cloudflare Turnstile secret key — spam protection on the contact form.
+# If unset, the code falls back to Cloudflare's always-pass TEST secret.
+TURNSTILE_SECRET=
+
+# Where contact-form messages are delivered (defaults to siteConfig.contactEmail).
+CONTACT_TO=
+
+# Verified Resend sender (defaults to siteConfig.contactFrom).
+CONTACT_FROM=

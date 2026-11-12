@@ -1,0 +1,11 @@
+{
+  "hello-world": {
+    "slug": "hello-world",
+    "title": "Hello, world",
+    "subtitle": "A sample post",
+    "date": "2026-01-01",
+    "canonical": "https://example.substack.com/p/hello-world",
+    "bodyHtml": "<p>This is a sample post body. Run <code>npm run import:content</code> to pull your real posts from Substack.</p>",
+    "cover": null
+  }
+}

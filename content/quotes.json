@@ -1,0 +1,18 @@
+[
+  {
+    "text": "The best way to predict the future is to invent it.",
+    "author": "Alan Kay",
+    "favorite": true
+  },
+  {
+    "text": "Simplicity is the ultimate sophistication.",
+    "author": "Leonardo da Vinci"
+  },
+  {
+    "text": "A sample quote with no attribution — jokes and one-liners can live here."
+  },
+  {
+    "text": "Replace these with your own collection via `npm run add:quotes`.",
+    "favorite": true
+  }
+]

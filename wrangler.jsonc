@@ -1,0 +1,26 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "my-personal-site",
+  "main": ".open-next/worker.js",
+  // Set to the date this app was wired up for Cloudflare Workers.
+  "compatibility_date": "2026-06-17",
+  "compatibility_flags": ["nodejs_compat"],
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  },
+  "observability": {
+    "enabled": true
+  },
+  // Disabled at launch so the raw *.workers.dev URL isn't publicly reachable
+  // alongside the real domain; flip to true temporarily if you need to test a
+  // deploy off-domain.
+  "workers_dev": false,
+  // Your apex catch-all route. Set both to your domain + Cloudflare zone.
+  "routes": [
+    { "pattern": "example.com/*", "zone_name": "example.com" }
+  ]
+  // Need a database? Add a D1 binding here, e.g.:
+  //   "d1_databases": [{ "binding": "DB", "database_name": "my-db",
+  //                      "database_id": "<your-d1-id>" }]
+}

@@ -1,0 +1,46 @@
+{
+  "books": [
+    {
+      "title": "The Pragmatic Programmer",
+      "author": "Hunt & Thomas",
+      "favorite": true,
+      "added": "2026-01-01"
+    },
+    {
+      "title": "Sample Book Two",
+      "author": "Some Author",
+      "added": "2026-01-01"
+    }
+  ],
+  "movies": [
+    {
+      "title": "Spirited Away",
+      "year": "2001",
+      "favorite": true,
+      "added": "2026-01-01"
+    }
+  ],
+  "videos": [
+    {
+      "title": "Sample talk (added via `npm run add:videos`)",
+      "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "added": "2026-01-01"
+    }
+  ],
+  "articles": [
+    {
+      "title": "Good Writing",
+      "author": "Paul Graham",
+      "url": "https://paulgraham.com/goodwriting.html",
+      "favorite": true,
+      "added": "2026-01-01"
+    }
+  ],
+  "other": [
+    {
+      "url": "https://example.com",
+      "note": "Freeform 'other' entry: a link plus a note.",
+      "added": "2026-01-01"
+    }
+  ]
+}
